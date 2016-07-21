@@ -1,3 +1,15 @@
+/**
+@author Kunal Chaudhary
+
+API:-
+class DirectedEdge
+ - DirectedEdge(int from, int to, double weight)	//constructor
+ - int from()										//source of directed edge
+ - int to()											//destination of directed edge
+ - double weight()									//weight of the directededge
+ - bool operator < (const Edge &x)					//comparing this edge to x
+*/
+
 class DirectedEdge{
 	private:
 		int _v, _w;
